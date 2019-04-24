@@ -1,0 +1,41 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ingreso.aspx.cs" Inherits="uni.ingreso" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body style="height: 366px">
+    <form id="form1" runat="server">
+    <div>
+    
+        <asp:Label ID="Label1" runat="server" Text="usuario"></asp:Label>
+        <br />
+        <asp:TextBox ID="usuario" runat="server" Width="130px"></asp:TextBox>
+        <br />
+        <br />
+    
+    </div>
+        <asp:Label ID="Label2" runat="server" Text="contraseña"></asp:Label>
+        <br />
+        <asp:TextBox ID="contraseña" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        Perfil<br />
+        <asp:RadioButtonList ID="perfilingreso" runat="server">
+            <asp:ListItem>estudiante</asp:ListItem>
+            <asp:ListItem>trabajador</asp:ListItem>
+        </asp:RadioButtonList>
+        <br />
+        <asp:Button ID="ingresar" runat="server" Text="ingresar" />
+        <br />
+        <br />
+        <br />
+        <asp:Label ID="Label3" runat="server" Text="No estas registrado?"></asp:Label>
+        <p>
+            <asp:Button ID="Button1" runat="server" Text="Registrarse" />
+        </p>
+    </form>
+</body>
+</html>
