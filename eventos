@@ -1,0 +1,121 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Eventos.aspx.cs" Inherits="uni.Eventos" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 281px;
+        }
+        .auto-style2 {
+            height: 23px;
+        }
+        .auto-style3 {
+            height: 32px;
+        }
+        .auto-style4 {
+            height: 31px;
+        }
+        .auto-style5 {
+            width: 131px;
+        }
+        .auto-style6 {
+            height: 23px;
+            width: 131px;
+        }
+        .auto-style7 {
+            height: 31px;
+            width: 131px;
+        }
+        .auto-style8 {
+            height: 32px;
+            width: 131px;
+        }
+    </style>
+</head>
+<body style="height: 290px">
+    <form id="form1" runat="server">
+    <div>
+    
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style5">Nombre del programa</td>
+                <td>intensidad</td>
+                <td>inversion</td>
+                <td>fecha</td>
+                <td>horarios</td>
+                <td>enlace</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style6">
+                    <asp:Label ID="Label1" runat="server" Text="taller de relaciones publicas"></asp:Label>
+                </td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label2" runat="server" Text="12 horas"></asp:Label>
+                </td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label3" runat="server" Text="$340.000"></asp:Label>
+                </td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label4" runat="server" Text="19 de marzo"></asp:Label>
+                </td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label5" runat="server" Text="martes de 6 a 9 pm"></asp:Label>
+                </td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label6" runat="server" Text="http://www.funlam.edu.co/modules/ofertaacademica/item.php?itemid=775"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style7"></td>
+                <td class="auto-style4"></td>
+                <td class="auto-style4"></td>
+                <td class="auto-style4"></td>
+                <td class="auto-style4"></td>
+                <td class="auto-style4"></td>
+            </tr>
+            <tr>
+                <td class="auto-style8"></td>
+                <td class="auto-style3"></td>
+                <td class="auto-style3"></td>
+                <td class="auto-style3"></td>
+                <td class="auto-style3"></td>
+                <td class="auto-style3"></td>
+            </tr>
+            <tr>
+                <td class="auto-style5">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:Label ID="Label7" runat="server" Text="Gestionar eventos"></asp:Label>
+                </td>
+                <td>
+                    <asp:Button ID="gestioanreventos" runat="server" Text="ir" />
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    
+    </div>
+    </form>
+</body>
+</html>
