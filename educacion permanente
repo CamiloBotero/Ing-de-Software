@@ -1,0 +1,210 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Educacion_permanente.aspx.cs" Inherits="uni.Educacion_permanente" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 25px;
+        }
+        .auto-style3 {
+            height: 23px;
+        }
+        .auto-style4 {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+    </div>
+        <table class="auto-style1">
+            <tr>
+                <td>
+                    <asp:Label ID="Label1" runat="server" Text="Cursos de eduacion continua"></asp:Label>
+                </td>
+                <td>
+                    <asp:Button ID="edconir1" runat="server" CssClass="auto-style4" Height="51px" Text="ir" Width="55px" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td rowspan="40">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Label2" runat="server" Text="LLena esta encuesta para ayudarnos a ayudarte:"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br />
+                    <br />
+                    Que tipo de eventos son de su preferencia?</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+                        <asp:ListItem>Charlas, conferencias, diálogos, coloquios o cátedras abiertas</asp:ListItem>
+                        <asp:ListItem>Foros, simposios, páneles, congresos o seminarios</asp:ListItem>
+                        <asp:ListItem>Cursos o talleres</asp:ListItem>
+                        <asp:ListItem>Diplomaturas</asp:ListItem>
+                    </asp:CheckBoxList>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Que tematicas le interesa para los eventos de capacitacion?</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:TextBox ID="txtpreg2" runat="server" Height="56px" Width="353px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Disponibilidad de horario</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                        <asp:ListItem>mañana</asp:ListItem>
+                        <asp:ListItem>tarde</asp:ListItem>
+                        <asp:ListItem>noche</asp:ListItem>
+                        <asp:ListItem>fines de semana</asp:ListItem>
+                    </asp:RadioButtonList>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Indique alguna otra necesidad de capacitacion o acompañamiento</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:TextBox ID="TextBox1" runat="server" Height="82px" Width="333px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3"></td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="encuesta" runat="server" Text="Finalizar" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2"></td>
+                <td class="auto-style2"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
